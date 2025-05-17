@@ -13,17 +13,22 @@ Intersection of two arrays is said to be elements that are common in both arrays
 Input: arr1[] = [1, 2, 3, 4], arr2[] = [2, 4, 6, 7, 8]
 Output: [2, 4]
 Explanation: 2 and 4 are only common elements in both the arrays.
+```
 
+```text
 Input: arr1[] = [1, 2, 2, 3, 4], arr2[] = [2, 2, 4, 6, 7, 8]
 Output: [2, 4]
 Explanation: 2 and 4 are the only common elements.
+```
 
+```text
 Input: arr1[] = [1, 2], arr2[] = [3, 4]
 Output: []
 Explanation: No common elements.
 ```
 
 ## Constraints
+
 ```text
 Expected Time Complexity: O(n + m)
 Expected Auxiliary Space: O(min(n,m))
