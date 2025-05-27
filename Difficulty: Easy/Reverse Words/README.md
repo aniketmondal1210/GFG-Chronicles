@@ -1,37 +1,43 @@
-# Number of Employees Who Met the Target
+# Reverse Words in a String
 
 ## Problem Statement
 
-There are `n` employees in a company, numbered from `0` to `n - 1`.  
-Each employee `i` has worked for `hours[i]` hours in the company.
+Given a string `s`, reverse the order of words in the string without reversing the characters of individual words.
 
-The company requires each employee to work for **at least** `target` hours.
-
-You are given:
-- A 0-indexed array `hours` of non-negative integers of length `n`
-- A non-negative integer `target`
-
-Return the number of employees who worked at least `target` hours.
+- Words are separated by **one or more spaces**.
+- The output string should contain **no leading or trailing spaces**, and **only one space** should separate each word.
 
 ## Examples
 
 ### Example 1:
 **Input:**  
-`hours = [0,1,2,3,4]`, `target = 2`  
+`s = " i like this program very much "`  
 **Output:**  
-`3`  
+`"much very program this like i"`  
 **Explanation:**  
-Employees who worked at least 2 hours: indices 2, 3, and 4.
+After trimming extra spaces and reversing the word order, the result is `"much very program this like i"`.
+
+---
 
 ### Example 2:
 **Input:**  
-`hours = [5,1,4,2,2]`, `target = 6`  
+`s = " pqr mno "`  
 **Output:**  
-`0`  
+`"mno pqr"`  
 **Explanation:**  
-No employee worked at least 6 hours.
+Trim spaces and reverse the words to get `"mno pqr"`.
+
+---
+
+### Example 3:
+**Input:**  
+`s = " a "`  
+**Output:**  
+`"a"`  
+**Explanation:**  
+Only one word present, so output is just `"a"`.
 
 ## Constraints
 
-- `1 <= n == hours.length <= 50`
-- `0 <= hours[i], target <= 10^5`
+- `1 <= s.length <= 10^6`
+- The string `s` contains **only lowercase English alphabets and spaces**.
