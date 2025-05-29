@@ -1,4 +1,4 @@
-# Floor of Square Root
+# Square Root
 
 ## Problem Statement
 
