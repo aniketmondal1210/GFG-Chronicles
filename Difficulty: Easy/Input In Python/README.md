@@ -17,7 +17,7 @@ You need to perform three separate tasks based on the given input:
 s = "Hello"
 n = 20
 f = 5.5
-
+```
 ### Output:
 ```python
 Hello
