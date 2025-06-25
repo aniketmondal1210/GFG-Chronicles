@@ -15,7 +15,8 @@ Given a string `s`, you need to perform the following operations:
 `s = "hello"`  
 
 **Output:**  
-Hello
+Hello 
+
 HELLO
 
 
@@ -33,6 +34,7 @@ In `HELLO`, all letters are in uppercase.
 **Output:**  
 
 World
+
 WORLD
 
 
