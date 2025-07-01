@@ -22,10 +22,12 @@ Print a **new line after printing the triangle**.
 `n = 4`  
 
 **Output:**
+```
 * 
 * * 
 * * * 
-* * * * 
+* * * *
+```
 
 **Explanation:**  
 Length of perpendicular and base of triangle is 4.
@@ -38,9 +40,11 @@ Length of perpendicular and base of triangle is 4.
 `n = 3`  
 
 **Output:**
+```
 * 
 * * 
 * * * 
+```
 
 **Explanation:**  
 Length of perpendicular and base of triangle is 3.
