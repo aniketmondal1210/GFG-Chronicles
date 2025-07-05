@@ -16,12 +16,14 @@ Given an integer `n`, write a program to **print a square wall of size `n × n`*
 `n = 5`
 
 **Output:**
-* * * * *
-* * * * *
-* * * * *
-* * * * *
-* * * * *
 
+```
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+```
 **Explanation:**  
 It forms a perfect square wall of size 5 using nested loops.
 
@@ -33,10 +35,11 @@ It forms a perfect square wall of size 5 using nested loops.
 `n = 4`
 
 **Output:**
+```
 * * * * 
 * * * * 
 * * * * 
 * * * * 
-
+```
 **Explanation:**  
 It forms a perfect square wall of size 4 using nested loops.
