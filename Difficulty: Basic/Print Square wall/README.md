@@ -16,13 +16,13 @@ Given an integer `n`, write a program to **print a square wall of size `n × n`*
 `n = 5`
 
 **Output:**
-
+```
 * * * * *
 * * * * *
 * * * * *
 * * * * *
 * * * * *
-
+```
 **Explanation:**  
 It forms a perfect square wall of size 5.
 
@@ -34,11 +34,11 @@ It forms a perfect square wall of size 5.
 `n = 4`
 
 **Output:**
-
+```
 * * * * 
 * * * * 
 * * * * 
 * * * * 
-
+```
 **Explanation:**  
 It forms a perfect square wall of size 4.
