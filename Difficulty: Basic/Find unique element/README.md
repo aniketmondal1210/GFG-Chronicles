@@ -37,8 +37,3 @@ Every element appears 4 times except `10`.
 - `1 ≤ arr[i] ≤ 10^9`
 
 ---
-
-## Expected Time and Space Complexity
-
-- **Time Complexity:** `O(n * log(arr[i]))`
-- **Auxiliary Space:** `O(log(arr[i]))`
