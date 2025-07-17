@@ -52,3 +52,8 @@ Total fine = 300
 - `1 ≤ car[i], fine[i], date ≤ 10^5`
 
 ---
+
+## Expected Time and Space Complexity
+
+- **Time Complexity:** `O(n)`
+- **Space Complexity:** `O(1)`
