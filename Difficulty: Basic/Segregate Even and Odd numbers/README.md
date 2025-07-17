@@ -51,13 +51,3 @@ All elements are even, sorted accordingly.
 - `0 ≤ arr[i] ≤ 10^5`
 
 ---
-
-## Approach
-
-1. Separate the array into two lists:
-   - `even`: all even elements
-   - `odd`: all odd elements
-2. Sort both lists.
-3. Merge them back into the original array in-place.
-
----
