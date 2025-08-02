@@ -29,16 +29,18 @@ Your task is to write a function named `calcSum()` which returns the **sum of th
 ## Example
 
 ### Input:
+```
 3
 1 2 3
 5 6 7
 2 5 3
-
+```
 ### Output:
+```
 6
 18
 10
-
+```
 **Explanation:**  
 - Testcase 1: 1 + 2 + 3 = 6  
 - Testcase 2: 5 + 6 + 7 = 18  
