@@ -2,6 +2,9 @@
 class Solution {
     static int sumOfNaturals(int n) {
         // code here
-        return (n*(n+1))/2;
+        if (n == 0) {
+            return 0;
+        }
+        return (n * (n + 1)) / 2;
     }
-};
+}
