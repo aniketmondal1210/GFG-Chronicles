@@ -15,11 +15,11 @@ You must use **nested loops** instead of string multiplication.
 
 **Output:**  
 ```bash
-  * * * * *
-  * * * * *
-  * * * * *
-  * * * * *
-  * * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
+* * * * *
 ```
 
 ## Constraints
