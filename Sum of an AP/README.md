@@ -11,7 +11,7 @@ Your task is to find the **sum of the series** up to the `n`th term.
 The sum of an arithmetic progression can be calculated using the formula:
 
 ```
- = (n / 2) × [2a + (n - 1) × d]
+ (n / 2) × [2a + (n - 1) × d]
 ```
 
 ## Examples
