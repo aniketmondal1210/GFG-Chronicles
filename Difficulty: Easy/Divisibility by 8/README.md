@@ -38,9 +38,3 @@ The number is not divisible by 8.
 - `1 ≤ |s| ≤ 10^6`
 
 ---
-
-## Key Insight
-A number is divisible by 8 **if and only if its last three digits form a number divisible by 8**.  
-We only need to check the last three digits of the string.
-
----
