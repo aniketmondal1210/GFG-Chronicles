@@ -4,10 +4,10 @@
 Given a positive integer `n`, find the **sum of product** of all pairs `(x, y)` such that:
 
 ```bash
-\text{floor}\left(\frac{n}{x}\right) = y
+floor(n/x) = y
 ```
 
-We need to sum up \( x \times y \) for all valid pairs.
+We need to sum up (x*y) for all valid pairs.
 
 ---
 
