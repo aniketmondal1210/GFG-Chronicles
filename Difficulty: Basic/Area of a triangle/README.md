@@ -9,6 +9,7 @@ Your task is to find the **area of the triangle**.
 We use **Heron's Formula** for a valid triangle:
 
 s = (A + B + C)/2
+
 Area = sqrt(s(s - A)(s - B)(s - C))
 
 ---
