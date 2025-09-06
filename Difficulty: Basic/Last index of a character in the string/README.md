@@ -37,7 +37,7 @@ Character `'z'` does not exist in the string.
 ---
 
 ## Constraints
-- 1<= N <=(32-bit number)
+- 1 <= |S| <= 10^5  
 - `S` and `X` contain only **uppercase** and **lowercase alphabets**.
 
 ---
