@@ -1,0 +1,4 @@
+class Solution:
+    def isIsogram(self,s):
+        #Your code here
+        return len(set(list(s))) == len(s)
