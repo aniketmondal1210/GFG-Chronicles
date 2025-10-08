@@ -44,6 +44,7 @@ After swapping, array becomes `[5, 1, 6, 3, 2]`.
 ## Constraints
 
 1 ≤ arr.size(), k ≤ 10^6
+
 -10^9 ≤ arr[i] ≤ 10^9
 
 ---
