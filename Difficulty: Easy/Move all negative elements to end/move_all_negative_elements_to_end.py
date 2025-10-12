@@ -11,3 +11,4 @@ class Solution:
                 neg.append(i)
 
         arr[:] = pos + neg
+        return arr
