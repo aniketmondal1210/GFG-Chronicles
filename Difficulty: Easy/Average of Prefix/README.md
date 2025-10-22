@@ -17,7 +17,7 @@ That is, for each index `i`, compute the average of all elements from index `0` 
 
 ---
 
-## 📤 Output
+## Output
 Return an array where the `i`-th element represents the average of the prefix `arr[0…i]`.
 
 ---
