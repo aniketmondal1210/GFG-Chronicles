@@ -3,4 +3,9 @@ import math
 class Solution:
     def countSquares(self, n):
         # code here 
-        return math.isqrt(n - 1)
+        count = 0
+        i = 1
+        while(i**2 < n):
+            count += 1
+            i += 1
+        return count
