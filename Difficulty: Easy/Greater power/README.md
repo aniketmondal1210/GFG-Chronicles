@@ -18,13 +18,14 @@ Since **b** and **n** can be very large (up to \( 10^{18} \)), directly computin
 a = 2, b = 2, m = 3, n = 2
 
 Computation:
+
 2^2=4,3^2=9
 
 Output:
 
 0
 
-Explanation: 4<94<9, so the output is 0.
+Explanation: 4<9, so the output is 0.
 Example 2
 
 Input:
