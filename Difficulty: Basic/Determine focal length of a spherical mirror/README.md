@@ -3,15 +3,13 @@
 ## Problem Statement
 Given the **radius of curvature (R)** of a spherical mirror and the **type** of mirror, find its **focal length**.
 
-- For a **concave mirror**:  
-  \[
-  f = \text{floor}(R / 2)
-  \]
+- For a **concave mirror**:
+
+  f = {floor}(R / 2)
 
 - For a **convex mirror**:  
-  \[
+
   f = \text{floor}(-R / 2)
-  \]
 
 where `floor(x)` represents the greatest integer less than or equal to `x`.
 
