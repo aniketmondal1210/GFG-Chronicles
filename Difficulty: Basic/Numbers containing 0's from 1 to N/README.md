@@ -16,7 +16,9 @@ Output:
 2
 
 Explanation:
+
 Numbers that contain 0 are 10 and 20.
+
 Example 2
 
 Input:
@@ -28,7 +30,9 @@ Output:
 10
 
 Explanation:
+
 Numbers that contain 0 are:
+
 10, 20, 30, 40, 50, 60, 70, 80, 90, and 100.
 
 ## Time & Space Complexity
