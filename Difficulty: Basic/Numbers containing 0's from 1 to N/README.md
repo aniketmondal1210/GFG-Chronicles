@@ -1,4 +1,4 @@
-# Count Numbers Containing the Digit '0' — `CountNo()`
+# Count Numbers Containing the Digit '0'
 
 ## Problem Statement
 Given a number **N**, find how many integers from **1 to N** contain **'0'** as one of their digits.
