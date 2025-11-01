@@ -1,60 +1,61 @@
-# Modular Exponentiation
+# Problem: Power of a Number (Modulo 10⁹ + 7)
 
 ## Problem Statement
-
-Given two positive integers **a** and **b**, find:
-
-a^b mod (10^9 + 7)
-
-That is, compute the power of `a` raised to `b`, **modulo 1,000,000,007**.
+Given two positive integers `a` and `b`, find `a^b` (a raised to the power b).  
+Output your answer **modulus (10⁹ + 7)**.
 
 ---
 
-## Examples
+## Example 1
+**Input:**  
 
-### **Example 1**
-**Input:**
+a = 1, b = 1
 
-a = 1
-
-b = 1
-
-Output:
+**Output:**  
 
 1
 
-Explanation:
-1^1 mod (10^9+7)=1
+**Explanation:**  
+1¹ % (10⁹ + 7) = 1
 
-Example 2
+---
 
-Input:
+## Example 2
+**Input:**  
 
-a = 2
+a = 2, b = 5
 
-b = 5
-
-Output:
+**Output:**  
 
 32
 
-Explanation:
+**Explanation:**  
+2⁵ % (10⁹ + 7) = 32
 
-2^5 mod (10^9+7)=32
+---
 
-## Time & Space Complexity
+## Your Task
+You don't need to read input or print anything.  
+Your task is to complete the function **`power(a, b)`** which takes two integers `a` and `b` as inputs and returns the result.
 
-Time Complexity: O(log b)
+---
 
-(Each iteration halves the exponent b)
+## Expected Time Complexity
 
-Space Complexity: O(1)
+O(log b)
 
-(Constant extra space)
+
+## Expected Auxiliary Space
+
+O(1)
+
+
+---
 
 ## Constraints
-Variable	Range
 
 1 ≤ a ≤ 10⁵
-
 1 ≤ b ≤ 10¹⁶
+
+
+---
