@@ -40,9 +40,7 @@ Output:
 
 Explanation:
 
-25 mod (109+7)=32
-
-25mod(109+7)=32
+2^5 mod (109+7)=32
 
 ## Time & Space Complexity
 
