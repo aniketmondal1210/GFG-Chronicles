@@ -55,6 +55,6 @@ Space Complexity: O(1)
 ## Constraints
 Variable	Range
 
-a	1 ≤ a ≤ 10⁵
+1 ≤ a ≤ 10⁵
 
-b	1 ≤ b ≤ 10¹⁶
+1 ≤ b ≤ 10¹⁶
