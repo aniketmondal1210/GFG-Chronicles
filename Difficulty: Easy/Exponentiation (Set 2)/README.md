@@ -24,7 +24,7 @@ Output:
 1
 
 Explanation:
-1^1 mod (109+7)=1
+1^1 mod (10^9+7)=1
 
 Example 2
 
@@ -40,7 +40,7 @@ Output:
 
 Explanation:
 
-2^5 mod (109+7)=32
+2^5 mod (10^9+7)=32
 
 ## Time & Space Complexity
 
