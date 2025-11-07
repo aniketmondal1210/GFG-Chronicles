@@ -1,4 +1,4 @@
-# Problem: Modular Exponentiation
+# Modular Exponentiation
 
 ## Problem Statement
 Given three integers `x`, `n`, and `M`, compute the value of:
