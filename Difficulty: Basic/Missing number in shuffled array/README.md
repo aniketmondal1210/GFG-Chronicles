@@ -42,4 +42,4 @@ Explanation:
 
 - 2 <= arr1.length <= 10^6
 - arr2.length = arr1.length - 1
-1 <= arr[i] <= 10^6
+- 1 <= arr[i] <= 10^6
