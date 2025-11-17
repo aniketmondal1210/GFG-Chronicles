@@ -55,8 +55,8 @@ To check whether **y is a power of x**:
 
 ## Constraints
 
-1 ≤ x ≤ 10³
-1 ≤ y ≤ 10⁸
+- 1 ≤ x ≤ 10³
+- 1 ≤ y ≤ 10⁸
 
 
 ---
