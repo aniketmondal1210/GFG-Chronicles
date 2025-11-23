@@ -31,6 +31,7 @@ volume = length * width * height
 ### Output
 
 12 10 2
+
 240
 
 
