@@ -49,7 +49,7 @@ There are:
 
 ## Constraints
 
-1 ≤ arr.size ≤ 100000
-0 ≤ arr[i], target ≤ 1000000
+- 1 ≤ arr.size ≤ 100000
+- 0 ≤ arr[i], target ≤ 1000000
 
 ---
