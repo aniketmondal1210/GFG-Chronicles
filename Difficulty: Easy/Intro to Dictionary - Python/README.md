@@ -40,7 +40,7 @@ sudan 80
 
 ## Constraints
 
-1 <= N <= 10⁴
-1 <= marks[i] <= 10⁴
+- 1 <= N <= 10⁴
+- 1 <= marks[i] <= 10⁴
 
 ---
