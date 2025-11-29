@@ -26,9 +26,13 @@ marks = [100, 200, 150, 80, 300]
 ### Output:
 
 ala 200
+
 ilia 150
+
 john 100
+
 mercy 300
+
 sudan 80
 
 
