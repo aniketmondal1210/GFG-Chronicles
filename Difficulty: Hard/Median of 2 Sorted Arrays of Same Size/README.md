@@ -12,10 +12,13 @@ You must compute the median **without actually merging** the arrays (optimal met
 
 Input:
 a = [-5, 3, 6, 12, 15]
+
 b = [-12, -10, -6, -3, 4]
 
 Merged Array: [-12, -10, -6, -5, -3, 3, 4, 6, 12, 15]
+
 Median = (-3 + 3) / 2 = 0
+
 Output: 0
 
 
@@ -23,21 +26,28 @@ Output: 0
 
 Input:
 a = [2, 3, 5, 7]
+
 b = [10, 12, 14, 16]
 
 Merged Array: [2, 3, 5, 7, 10, 12, 14, 16]
+
 Median = (7 + 10) / 2 = 8.5
+
 Output: 8.5
 
 
 ### Example 3
 
 Input:
+
 a = [-5]
+
 b = [-6]
 
 Merged Array: [-6, -5]
+
 Median = (-6 + -5) / 2 = -5.5
+
 Output: -5.5
 
 
