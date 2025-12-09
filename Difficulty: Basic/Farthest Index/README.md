@@ -13,14 +13,18 @@ If `x` is not present, return `-1`.
 ### Example 1
 
 Input: arr = [7, 42, 5, 6, 42, 8, 7, 5, 3, 6, 7], x = 7
+
 Output: 11
+
 Explanation: The last index containing value 7 is index 11.
 
 
 ### Example 2
 
 Input: arr = [1, 2, 2], x = 2
+
 Output: 1
+
 Explanation: The farthest index containing value x is 1.
 
 
