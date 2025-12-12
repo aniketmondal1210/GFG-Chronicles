@@ -13,18 +13,21 @@ Your task is to return that single element.
 ### Example 1
 
 Input: arr = [1, 1, 2, 2, 3, 3, 4, 50, 50, 65, 65]
+
 Output: 4
 
 
 ### Example 2
 
 Input: arr = [5]
+
 Output: 5
 
 
 ### Example 3
 
 Input: arr = [1, 2, 2, 3, 3]
+
 Output: 1
 
 
