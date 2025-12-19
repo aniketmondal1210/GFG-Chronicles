@@ -1,4 +1,4 @@
-# Problem: Make the String Same-Coloured
+# Make the String Same-Coloured
 
 ## Problem Statement
 You are given a string `S` of length `N` consisting only of uppercase characters:
