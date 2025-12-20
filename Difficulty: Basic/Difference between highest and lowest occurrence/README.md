@@ -43,25 +43,6 @@ arr = [7, 8, 4, 5, 4, 1, 1, 7, 7, 2, 5]
 
 ---
 
-## Approach
-1. Use a **hash map** (or dictionary) to count the frequency of each element.
-2. If the number of distinct elements is `1`, return `0`.
-3. Find:
-   - Maximum frequency
-   - Minimum frequency
-4. Return:
-
-maxFrequency - minFrequency
-
-
----
-
-## Time and Space Complexity
-- **Time Complexity:** `O(n)`
-- **Space Complexity:** `O(n)`
-
----
-
 ### Constraints
 
 - 1 ≤ arr.size() ≤ 10⁶
