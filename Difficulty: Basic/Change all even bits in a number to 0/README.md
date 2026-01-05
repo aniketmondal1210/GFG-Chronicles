@@ -1,13 +1,10 @@
-# Largest Even Number from a Binary String of '1' and '2'
+# Change All Even Position Bits to 0
 
 ## Problem Statement
-You are given a string `s` consisting only of the characters `'1'` and `'2'`.
+You are given an integer `N`.  
+Your task is to **change all bits at even positions to `0`** and return the resulting number.
 
-You are allowed to **delete any number of characters** from the string **without changing the order** of the remaining characters.
-
-Your task is to return the **largest possible resultant string** that represents an **even integer**.
-
-If it is not possible to form an even integer, return an **empty string** `""`.
+> Bit positions are considered **1-based from the rightmost (LSB)**.
 
 ---
 
@@ -16,61 +13,49 @@ If it is not possible to form an even integer, return an **empty string** `""`.
 ### Example 1
 **Input:**
 
-s = "1112"
+N = 30
 
 
 **Output:**
 
-"1112"
+10
 
 
-**Explanation:**  
-The string already ends with `'2'`, so it represents an even number and is already the largest possible.
+**Explanation:**
+- Binary representation of `30` is `11110`
+- Even positions (2, 4, ...) are highlighted  
+- After setting even-position bits to `0`, we get `01010`
+- Decimal value of `01010` is `10`
 
 ---
 
 ### Example 2
 **Input:**
 
-s = "221"
+N = 10
 
 
 **Output:**
 
-"22"
+10
 
 
-**Explanation:**  
-The string ends with `'1'` (odd).  
-By deleting `'1'`, the string becomes `"22"`, which is even and the largest possible.
-
----
-
-### Example 3
-**Input:**
-
-s = "1"
-
-
-**Output:**
-
-""
-
-
-**Explanation:**  
-There is no `'2'` in the string, so it is impossible to form an even number.
+**Explanation:**
+- Binary representation of `10` is `1010`
+- Even-position bits are already `0`
+- Result remains `10`
 
 ---
 
 ## Complexity Analysis
-- **Time Complexity:** `O(n)`
-- **Auxiliary Space:** `O(1)` (excluding output string)
+- **Time Complexity:** `O(1)`
+- **Auxiliary Space:** `O(1)`
 
 ---
 
 ## Constraints
 
-- 1 <= s.length <= 100
-- s consists only of characters '1' and '2'
+1 <= N <= 32-bit integer
+
 
 ---
