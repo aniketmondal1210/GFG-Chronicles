@@ -18,6 +18,7 @@ Your task is to convert the given sentence into **snake case**.
 **Input:**
 
 N = 14
+
 S = "Geeks ForGeeks"
 
 
@@ -36,6 +37,7 @@ S = "Geeks ForGeeks"
 **Input:**
 
 N = 21
+
 S = "Here comes the garden"
 
 
