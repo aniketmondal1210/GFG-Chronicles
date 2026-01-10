@@ -1,14 +1,10 @@
-# Convert a Sentence to Snake Case
+# First Non-Repeating Element in an Array
 
 ## Problem Statement
-You are given a sentence `S` of length `N` consisting only of **English alphabet characters and spaces**.
+You are given an array `arr[]` of integers consisting of **positive and negative numbers (excluding zero)**.
 
-Your task is to convert the given sentence into **snake case**.
-
-### Snake Case Rules
-- All characters must be in **lowercase**
-- All **spaces** must be replaced with an underscore (`_`)
-- No leading spaces are present in the input
+Your task is to find the **first non-repeating element** in the array.  
+If **no such element exists**, return `0`.
 
 ---
 
@@ -17,48 +13,50 @@ Your task is to convert the given sentence into **snake case**.
 ### Example 1
 **Input:**
 
-N = 14
-S = "Geeks ForGeeks"
+arr = [-1, 2, -1, 3, 2]
 
 
 **Output:**
 
-"geeks_forgeeks"
+3
 
 
 **Explanation:**  
-- Uppercase letters are converted to lowercase  
-- Space is replaced with `_`
+- `-1` appears twice  
+- `2` appears twice  
+- `3` appears only once  
+
+The first element that does not repeat is `3`.
 
 ---
 
 ### Example 2
 **Input:**
 
-N = 21
-S = "Here comes the garden"
+arr = [1, 1, 1]
 
 
 **Output:**
 
-"here_comes_the_garden"
+0
 
 
 **Explanation:**  
-- All characters are converted to lowercase  
-- Spaces are replaced with underscores
+All elements are repeating, so there is no non-repeating element.
 
 ---
 
 ## Complexity Analysis
-- **Time Complexity:** `O(N)`
-- **Auxiliary Space:** `O(1)` (excluding output string)
+- **Time Complexity:** `O(n)`
+- **Auxiliary Space:** `O(n)`
 
 ---
 
 ## Constraints
 
-- 1 ≤ N ≤ 10^5
+- 1 <= arr.size <= 10^6
+- -10^9 <= arr[i] <= 10^9
+- arr[i] != 0
 
 
 ---
