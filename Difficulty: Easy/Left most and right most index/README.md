@@ -15,7 +15,9 @@ Your task is to find the **indices of the first and last occurrence** of `X` in 
 **Input:**
 
 N = 9
+
 v[] = {1, 3, 5, 5, 5, 5, 67, 123, 125}
+
 X = 5
 
 
@@ -34,7 +36,9 @@ X = 5
 **Input:**
 
 N = 9
+
 v[] = {1, 3, 5, 5, 5, 5, 7, 123, 125}
+
 X = 7
 
 
