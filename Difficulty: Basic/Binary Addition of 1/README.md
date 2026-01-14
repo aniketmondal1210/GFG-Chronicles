@@ -12,6 +12,7 @@ Your task is to perform **binary addition of the string with `1`** and return th
 **Input:**
 
 n = 4
+
 s = "1010"
 
 
@@ -31,6 +32,7 @@ s = "1010"
 **Input:**
 
 n = 3
+
 s = "111"
 
 
