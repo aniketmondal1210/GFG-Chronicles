@@ -16,6 +16,7 @@ Your task is to **find the maximum repeating number** in the array.
 **Input:**
 
 k = 3
+
 arr = [2, 2, 1, 2]
 
 
@@ -35,6 +36,7 @@ So, `2` is the most frequent element.
 **Input:**
 
 k = 3
+
 arr = [2, 2, 1, 0, 0, 1]
 
 
