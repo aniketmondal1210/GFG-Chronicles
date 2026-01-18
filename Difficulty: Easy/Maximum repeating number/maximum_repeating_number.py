@@ -3,10 +3,10 @@ from collections import Counter
 class Solution:
 	def maxRepeating(self,k, arr):
 		# code here
-		count = Counter(arr)
-        max_frequency = max(count.values())
+		a = Counter(arr)
+        max_frequency = max(a.values())
         max_elements = []
         for i in range(k):
-            if count[i] == max_frequency:
+            if a[i] == max_frequency:
                 max_elements.append(i)
         return min(max_elements)
