@@ -12,6 +12,7 @@ Your task is to count how many times the characters at the **same index** in bot
 **Input:**
 
 A = "choice"
+
 B = "chancE"
 
 
@@ -35,6 +36,7 @@ Total = **4**
 **Input:**
 
 A = "Geek"
+
 B = "gang"
 
 
