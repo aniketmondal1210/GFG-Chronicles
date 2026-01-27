@@ -50,8 +50,9 @@ S = "ACCBA10D2EW30"
 
 ---
 
-## Expected Time Complexity: O(|S|)
-## Expected Auxiliary Space: O(26)
+## Time and Space Complexity:
+- Expected Time Complexity: O(|S|)
+-  Expected Auxiliary Space: O(26)
 
 ## Constraints:
 
