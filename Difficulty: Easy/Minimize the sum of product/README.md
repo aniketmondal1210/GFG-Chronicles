@@ -1,4 +1,4 @@
-# Problem: Minimum Sum of Product of Two Arrays
+# Minimum Sum of Product of Two Arrays
 
 ## Problem Statement
 You are given two arrays `arr1` and `arr2` of equal size `N`.  
