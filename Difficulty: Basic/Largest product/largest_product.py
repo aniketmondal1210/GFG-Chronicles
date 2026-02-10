@@ -1,0 +1,11 @@
+# You are required to complete this fucntion
+# Function should return the an integer
+class Solution:
+    def findMaxProduct(self, arr, k):
+        max_prod = 0
+        for i in range(len(arr) - k + 1):
+            prod = 1
+            for j in range(i, i + k):
+                prod *= arr[j]
+            max_prod = max(max_prod, prod)
+        return max_prod
