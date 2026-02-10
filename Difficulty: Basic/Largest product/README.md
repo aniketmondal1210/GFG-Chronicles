@@ -71,9 +71,3 @@ O(1)
 
 
 ---
-
-## Time and Space Complexity
-- **Time Complexity:** `O(n)`
-- **Auxiliary Space:** `O(1)`
-
----
