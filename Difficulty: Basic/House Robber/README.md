@@ -17,7 +17,7 @@ Return the **maximum money** he can rob.
 
 **Input**
 
-N = 5
+N = 5, 
 K = 10
 
 
@@ -39,7 +39,7 @@ He robs house 1, 3, and 5:
 
 **Input**
 
-N = 2
+N = 2, 
 K = 12
 
 
