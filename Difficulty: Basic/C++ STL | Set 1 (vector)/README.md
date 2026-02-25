@@ -17,6 +17,15 @@ We need to perform multiple queries on a vector **A**.
 
 ---
 
+## Approach
+
+- Use a `Vector<Integer>` (or `ArrayList<Integer>`).
+- Traverse the query list.
+- Perform operation based on query type.
+- Print only for `d` and `e`.
+
+---
+
 ## Example
 
 ### Input Queries
