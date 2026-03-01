@@ -53,13 +53,11 @@ Total = 3
 
 ---
 
+Expected Time Complexity: `O(1)`  
+Expected Auxiliary Space: `O(1)`
+
 ## Constraint:
 
 ```
 1 <= A, B, M <= 10^6
 ```
-
-Expected Time Complexity: `O(1)`  
-Expected Auxiliary Space: `O(1)`
-
----
