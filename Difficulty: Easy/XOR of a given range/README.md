@@ -50,8 +50,6 @@ a = 0, b = 4
 
 ---
 
----
-
 ## Time Complexity
 
 ```
