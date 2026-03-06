@@ -67,26 +67,8 @@ Total = **2**
 
 ---
 
-## Time Complexity
-
-```
-O(N)
-```
-
-- One pass to count frequencies.
-- One pass through the map.
-
----
-
-## Space Complexity
-
-```
-O(N)
-```
-
-- For storing frequencies in the hash map.
-
----
+## Expected Time Complexity: O(N)
+## Expected Auxiliary Space: O(N)
 
 ## Constraints:
 
