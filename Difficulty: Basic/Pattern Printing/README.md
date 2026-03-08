@@ -59,7 +59,7 @@ The pattern prints increasing asterisks:
 ## Expected Time Complexity: O(N^2)
 ---
 ## Expected Auxiliary Space: O(1)
-
+---
 ## Constraints:
 
 - 1 <= N <= 1000
