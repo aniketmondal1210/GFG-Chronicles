@@ -91,6 +91,6 @@ Absolute difference:
 
 ## Constraints:
 
-- 1<= N <=103
+- 1<= N <=10^3
 
 ---
