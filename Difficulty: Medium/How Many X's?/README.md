@@ -63,7 +63,7 @@ L = 18, R = 81, X = 9
 ## Expected Time Complexity:O(RLogR)
 ## Expected Auxillary Space:O(1)
 
-##Constraints:
+## Constraints:
 
 - 1 <= L< R <= 105
 - 0 <= X <= 9 
