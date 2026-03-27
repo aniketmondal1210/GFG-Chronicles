@@ -10,7 +10,7 @@ Return:
 
 ---
 
-## 🧪 Examples
+## Examples
 
 ### Example 1
 
