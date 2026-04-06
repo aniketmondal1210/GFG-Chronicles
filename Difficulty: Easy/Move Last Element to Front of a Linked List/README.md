@@ -1,4 +1,4 @@
-# Move Last Node to Front (Linked List)
+# Move Last Node to Front
 
 ## Problem Statement
 
