@@ -1,4 +1,4 @@
-# Find Node at Given Index (1-Based)
+# Find Node at Given Index
 
 ## Problem Statement
 
