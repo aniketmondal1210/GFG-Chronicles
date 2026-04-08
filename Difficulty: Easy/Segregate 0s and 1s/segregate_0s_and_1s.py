@@ -16,3 +16,17 @@ class Solution:
         # code here
         arr.sort()
         return arr
+
+#User function Template for python3
+class Solution:
+    def segregate0and1(self, arr):
+        # code here
+        a = []
+        b = []
+        for i in arr:
+            if i == 0:
+                a.append(i)
+            else:
+                b.append(i)
+        arr[:] = a + b
+        return arr
