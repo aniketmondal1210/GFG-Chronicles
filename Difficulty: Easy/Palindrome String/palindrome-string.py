@@ -1,22 +1,11 @@
-#User function Template for python3
 class Solution:
-    def isPalindrome(self, s: str) -> bool:
-		# code here
-        if s == s[::-1]:
-            return True
-        else:
-            return False
-#{ 
- # Driver Code Starts
-# Initial Template for Python 3
-
-if __name__ == '__main__':
-    T = int(input())
-    for i in range(T):
-        s = input()  # Use lowercase 's'
-        ob = Solution()
-        answer = ob.isPalindrome(s)
-        print("true" if answer else "false")  # Print "true" or "false"
-        print("~")
-
-# } Driver Code Ends
+    def isPalindrome(self, s):
+        # code here
+        left = 0
+        right = len(s) - 1
+        while(left < right):
+            if s[left] != s[right]:
+                return False
+            left += 1
+            right -= 1
+        return True
