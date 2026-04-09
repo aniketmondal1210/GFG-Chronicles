@@ -1,11 +1,8 @@
-#User function Template for python3
 class Solution:
     def find(self, arr, x):
         # code here
-        result = []
-        for i in range(len(arr)):
-            if arr[i] == x:
-                result.append(i)
-        if len(result) == 0:
-            return [-1, -1]
-        return [result[0], result[-1]]
+        if x not in arr:
+            return [-1,-1]
+        a = arr.index(x)
+        b = len(arr) - arr[::-1].index(x) - 1
+        return [a,b]
