@@ -1,4 +1,4 @@
-# Replace Spaces with '%20'
+# URLify a given string
 
 ## Problem Statement
 
