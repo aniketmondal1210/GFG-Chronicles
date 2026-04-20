@@ -1,7 +1,7 @@
 class Solution:
     def countBitsFlip(self, a, b):
         #code here
-        max_len = max(len(bin(a)), len(bin(b))) - 2 # subtract 2 for '0b'
+        max_len = max(len(bin(a)[2:]), len(bin(b)[2:]))
         c = bin(a)[2:].zfill(max_len)
         d = bin(b)[2:].zfill(max_len)
         count = 0
