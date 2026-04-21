@@ -40,7 +40,7 @@ List: 2 -> 3 -> 4 -> 5 -> 6
 
 ## Constraints:
 
-1 ≤ size of linked list ≤ 10^5
-1 ≤ x ≤ size of linked list
+- 1 ≤ size of linked list ≤ 10^5
+- 1 ≤ x ≤ size of linked list
 
 ---
