@@ -19,7 +19,6 @@ class Solution:
         while current:
             if count % k == 0:
                 prev.next = current.next
-                total -= 1
             else:
                 prev = current
             current = current.next
