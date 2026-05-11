@@ -67,6 +67,7 @@ Returning any one is correct.
 
 ```text
 1 ≤ arr.size() ≤ 10^6
+-2^31 ≤ arr[i] ≤ 2^31 - 1
 ```
 
 ---
