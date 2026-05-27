@@ -20,7 +20,7 @@ Given three integers `a`, `b`, and `c`:
 ## Output
 
 ```text
-[ 2,7,5 ]
+[2,7,5]
 275
 ```
 
