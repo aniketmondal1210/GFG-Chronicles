@@ -5,9 +5,7 @@
 Find the first index such that:
 
 ```text
-Sum of elements before it
-=
-Sum of elements after it
+Sum of elements before it = Sum of elements after it
 ```
 
 Return `-1` if no such index exists.
