@@ -1,0 +1,8 @@
+#User function Template for python3
+class Solution:
+	def divisibleBy11(self, S):
+		# Your Code Here
+        num = int(S)
+        if num % 11 == 0:
+            return 1
+        return 0
