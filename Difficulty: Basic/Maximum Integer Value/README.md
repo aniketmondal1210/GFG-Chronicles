@@ -84,4 +84,16 @@ Final answer:
 
 ---
 
-## 
+## Your Task:
+You don't need to read input or print anything. Your task is to complete the function MaximumIntegerValue() which takes the string S as input parameter and returns the maximum integer value that can be created using given procedures
+
+## Expected Time Complexity: O(|S|)
+## Expected Auxiliary Space: O(1)
+
+## Constraints:
+
+- 1 <= |S| < 20
+- S contains only digits from 0 to 9
+- Leading 0's maybe present.
+
+---
