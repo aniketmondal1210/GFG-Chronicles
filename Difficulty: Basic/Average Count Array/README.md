@@ -103,47 +103,10 @@ result[] = [0, 1, 1, 1, 0, 1]
 
 ---
 
-## Approach
+## Constraints:
 
-Use a frequency map to store the number of occurrences of every value in `arr[]`.
-
-For each element `arr[i]`:
-
-1. Calculate:
-
-```text
-avg = floor((arr[i] + x) / 2)
-```
-
-2. Find the frequency of `avg` in the frequency map.
-3. Store that frequency in `result[i]`.
-
-This avoids repeatedly scanning the entire array.
+- 1 ≤ arr.size() ≤ 10^5
+- 0 ≤ x ≤ 10^5
+- 0 ≤ arr[i] ≤ 10^5
 
 ---
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-The array is traversed once to build the frequency map and once to construct the result.
-
-### Auxiliary Space
-
-```text
-O(n)
-```
-
-The frequency map may contain up to `n` distinct values.
-
----
-
-## Key Idea
-
-The frequency of every value in `arr[]` can be calculated once using a hash map.
-
-Then each calculated average can be looked up in `O(1)` average time.
