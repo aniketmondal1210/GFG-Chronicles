@@ -1,4 +1,4 @@
-# Problem: Count Frequency of Floor Average
+# Count Frequency of Floor Average
 
 ## Problem Statement
 
