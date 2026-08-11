@@ -99,41 +99,8 @@ Therefore:
 
 ---
 
-## Approach
+## Constraints:
 
-Create a mapping from each lowercase English letter to its corresponding keypad digit.
-
-Then:
-
-1. Traverse the string character by character.
-2. Find the keypad digit corresponding to the current character.
-3. Append the digit to the result string.
-4. Return the resulting numeric string.
+- 1 ≤ s.size() ≤ 100
 
 ---
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-where `n` is the length of the string.
-
-### Auxiliary Space
-
-```text
-O(n)
-```
-
-for storing the resulting numeric string.
-
----
-
-## Constraints
-
-```text
-1 <= s.size() <= 100
-```
