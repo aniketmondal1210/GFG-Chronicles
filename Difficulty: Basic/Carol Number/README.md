@@ -78,39 +78,6 @@ The 4th Carol number is:
 
 ---
 
-## Approach
-
-Use the equivalent formula:
-
-```text
-(2^n - 1)^2 - 2
-```
-
-For a given `n`:
-
-1. Calculate `2^n`.
-2. Subtract `1`.
-3. Square the result.
-4. Subtract `2`.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(1)
-```
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
----
-
 ## Constraints
 
 ```text
