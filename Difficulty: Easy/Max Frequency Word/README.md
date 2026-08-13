@@ -66,41 +66,6 @@ Since `"this"` occurs first in the sentence, it is returned along with its frequ
 this 1
 ```
 
----
-
-## Approach
-
-Use a frequency map to count the occurrences of every word.
-
-1. Split the sentence into individual words.
-2. Count the frequency of each word using a hash map.
-3. Traverse the words in their original order.
-4. Keep track of the word with the highest frequency.
-5. If two words have the same frequency, keep the one that appeared earlier.
-6. Return the word and its frequency.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-where `n` is the length of the string.
-
-### Auxiliary Space
-
-```text
-O(n)
-```
-
-for storing the frequency of the words.
-
----
-
 ## Constraints
 
 ```text
