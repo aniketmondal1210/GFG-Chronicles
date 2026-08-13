@@ -1,4 +1,4 @@
-# Problem: Highest Frequency Word
+# Highest Frequency Word
 
 ## Problem Statement
 
