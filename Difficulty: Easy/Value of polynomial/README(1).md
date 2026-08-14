@@ -1,4 +1,4 @@
-# Problem: Evaluate Polynomial
+# Evaluate Polynomial
 
 ## Problem Statement
 
@@ -81,52 +81,6 @@ Evaluating it at `x = 2`:
 = 8 + 8 + 4
 = 20
 ```
-
----
-
-## Approach
-
-Use **Horner's Method** to evaluate the polynomial efficiently.
-
-Start with the first coefficient and repeatedly update the result using:
-
-```text
-result = result * x + poly[i]
-```
-
-For example, for:
-
-```text
-2x^3 - 6x^2 + 2x - 1
-```
-
-the calculation becomes:
-
-```text
-((2 * x - 6) * x + 2) * x - 1
-```
-
-This avoids explicitly calculating powers of `x`.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-where `n` is the number of coefficients.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-Only a constant amount of extra space is required.
 
 ---
 
