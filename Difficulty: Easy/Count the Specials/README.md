@@ -93,44 +93,6 @@ Therefore, the answer is:
 
 ---
 
-## Approach
-
-Use a frequency map to count the occurrences of each distinct element.
-
-1. Calculate the required frequency:
-
-```text
-frequency = floor(n / k)
-```
-
-where `n` is the size of `arr`.
-
-2. Traverse the array and store the frequency of each element.
-3. Count how many distinct elements have a frequency exactly equal to `frequency`.
-4. Return the count.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-The array is traversed once to build the frequency map.
-
-### Auxiliary Space
-
-```text
-O(n)
-```
-
-In the worst case, all elements can be distinct.
-
----
-
 ## Constraints
 
 ```text
