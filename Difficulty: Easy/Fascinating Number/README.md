@@ -1,4 +1,4 @@
-# Problem: Fascinating Number
+# Fascinating Number
 
 ## Problem Statement
 
