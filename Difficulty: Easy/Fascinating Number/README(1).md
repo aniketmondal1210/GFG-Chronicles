@@ -77,38 +77,6 @@ Therefore, `853` is not a fascinating number.
 
 ---
 
-## Approach
-
-1. Calculate `n * 2` and `n * 3`.
-2. Convert `n`, `n * 2`, and `n * 3` to strings.
-3. Concatenate all three strings.
-4. Check that the concatenated string has exactly 9 characters.
-5. Count the frequency of each digit.
-6. Verify that every digit from `1` to `9` appears exactly once and `0` does not appear.
-7. Return `true` if all conditions are satisfied; otherwise, return `false`.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(d)
-```
-
-where `d` is the number of digits in the concatenated sequence.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-A fixed-size frequency array of size `10` is sufficient.
-
----
-
 ## Constraints
 
 ```text
