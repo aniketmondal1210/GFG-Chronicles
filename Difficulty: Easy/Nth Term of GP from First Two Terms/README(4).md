@@ -1,4 +1,4 @@
-# Problem: Nth Term of a Geometric Series
+# Nth Term of a Geometric Series
 
 ## Problem Statement
 
@@ -84,53 +84,6 @@ Therefore, the answer is:
 ```text
 16
 ```
-
----
-
-## Approach
-
-The first two terms are `a` and `b`.
-
-The common ratio is:
-
-```text
-r = b / a
-```
-
-The nth term of a geometric series is:
-
-```text
-a * r^(n - 1)
-```
-
-An iterative approach can also be used:
-
-1. Start with `term = a`.
-2. Repeat `n - 1` times.
-3. Multiply `term` by the common ratio.
-4. Return `term`.
-
-Since the constraints are small, either approach is sufficient.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n)
-```
-
-using the iterative approach.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-Only a constant amount of extra space is required.
 
 ---
 
