@@ -1,4 +1,4 @@
-# Problem: Maximum Perimeter of a Triangle
+# Maximum Perimeter of a Triangle
 
 ## Problem Statement
 
@@ -75,47 +75,6 @@ Therefore:
 ```text
 -1
 ```
-
----
-
-## Approach
-
-1. Sort the array in ascending order.
-2. Start checking triples from the end of the sorted array.
-3. For each triple:
-
-```text
-arr[i-2], arr[i-1], arr[i]
-```
-
-check:
-
-```text
-arr[i-2] + arr[i-1] > arr[i]
-```
-
-4. The first valid triple found from the end gives the maximum perimeter.
-5. If no valid triple exists, return `-1`.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(n log n)
-```
-
-due to sorting.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-excluding the sorting space.
 
 ---
 
