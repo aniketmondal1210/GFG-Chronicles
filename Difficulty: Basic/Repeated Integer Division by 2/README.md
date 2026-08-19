@@ -1,4 +1,4 @@
-# Problem: Halve a Number M - 1 Times
+# Halve a Number M - 1 Times
 
 ## Problem Statement
 
@@ -74,40 +74,6 @@ Therefore, the result is:
 ```text
 0
 ```
-
----
-
-## Approach
-
-Start with `n` and perform integer division by `2` exactly `m - 1` times.
-
-For each iteration:
-
-```text
-n = n / 2
-```
-
-After all required divisions, return `n`.
-
----
-
-## Complexity
-
-### Time Complexity
-
-```text
-O(m)
-```
-
-There are exactly `m - 1` division operations.
-
-### Auxiliary Space
-
-```text
-O(1)
-```
-
-Only a constant amount of extra space is used.
 
 ---
 
