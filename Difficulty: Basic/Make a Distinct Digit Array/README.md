@@ -1,4 +1,4 @@
-# Problem: Distinct Digits in an Array
+# Distinct Digits in an Array
 
 ## Problem Statement
 
