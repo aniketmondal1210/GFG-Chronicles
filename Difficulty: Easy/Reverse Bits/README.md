@@ -53,17 +53,3 @@ After reversing the bits:
 ## Constraints
 
 - `1 ≤ n ≤ 10⁹`
-
-## Solution
-
-```python
-n = int(input())
-
-result = 0
-
-while n > 0:
-    result = (result << 1) | (n & 1)
-    n >>= 1
-
-print(result)
-```
