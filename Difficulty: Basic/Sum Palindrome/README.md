@@ -54,7 +54,3 @@ n = 73
 ```text
 1 <= n <= 10^4
 ```
-
-## License
-
-This solution is intended for educational and coding-practice purposes.
