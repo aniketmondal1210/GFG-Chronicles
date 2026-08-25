@@ -49,30 +49,6 @@ n = 73
 
 `121` is a palindrome, so the answer is `121`.
 
-## Approach
-
-1. Start with the given number `n`.
-2. Check whether `n` is already a palindrome.
-3. If it is not a palindrome, reverse its digits and add the reversed number to `n`.
-4. Repeat the process for at most **5 iterations**.
-5. If a palindrome is found, return it.
-6. If no palindrome is found after 5 iterations, return `-1`.
-
-## Complexity
-
-For each iteration, reversing and checking the number takes `O(d)` time, where `d` is the number of digits.
-
-Since there are at most 5 iterations:
-
-- **Time:** `O(5 × d)`, effectively `O(d)`
-- **Space:** `O(d)` for string-based reversal/checking, or `O(1)` with arithmetic operations.
-
-## Edge Cases
-
-- If the input is already a palindrome, it can be returned immediately.
-- Leading zeroes produced while reversing are naturally ignored. For example, reversing `110` gives `11`, not `011`.
-- If no palindrome is reached within 5 iterations, return `-1`.
-
 ## Constraint
 
 ```text
