@@ -25,23 +25,3 @@ Explanation: Since 4 > 3, the digits are not in non-decreasing order.
 ## Constraints
 
 - `1 ≤ n ≤ 10^9`
-
-## Solution
-
-```python
-def is_tidy(n):
-    digits = str(n)
-
-    for i in range(1, len(digits)):
-        if digits[i] < digits[i - 1]:
-            return False
-
-    return True
-```
-
-## Sample Usage
-
-```python
-print(is_tidy(1234))  # True
-print(is_tidy(1243))  # False
-```
