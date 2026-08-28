@@ -62,16 +62,3 @@ The consecutive triplets are `[2, 10, 2]`, `[10, 2, 10]`, and `[2, 10, 2]`.
 
 - `3 ≤ n ≤ 10^5`
 - `1 ≤ arr[i] ≤ 10^9`
-
-## Input Format
-
-- The first line contains an integer `n`, the size of the array.
-- The second line contains `n` space-separated integers representing `arr[]`.
-
-## Output Format
-
-Print `n - 2` integers, where each integer is `1` if the corresponding consecutive triplet forms a valid triangle, otherwise `0`.
-
-## Notes
-
-Because all array values are positive, a triplet can also be checked by sorting its three values and verifying that the sum of the two smaller sides is strictly greater than the largest side.
