@@ -23,25 +23,3 @@ The valid values are `i = 0, 1, 2, 3`.
 ## Constraints
 
 - `1 <= n <= 10^3`
-
-## Key Observation
-
-For any two integers `a` and `b`:
-
-```text
-a + b = (a ^ b) + 2 * (a & b)
-```
-
-Therefore:
-
-```text
-n + i = n ^ i
-```
-
-holds exactly when:
-
-```text
-n & i = 0
-```
-
-So we only need to count the values of `i` from `0` to `n` for which `(n & i) == 0`.
