@@ -80,8 +80,6 @@ Some of the languages I work with include:
 * C++
 * Java
 * Python
-* JavaScript
-* And more...
 
 ---
 
