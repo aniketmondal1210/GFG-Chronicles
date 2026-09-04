@@ -6,7 +6,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-GeeksforGeeks-green?style=for-the-badge" alt="GeeksforGeeks">
-  <img src="https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/DSA-Practice-orange?style=for-the-badge" alt="DSA">
   <img src="https://img.shields.io/github/license/aniketmondal1210/GFG-Chronicles?style=for-the-badge" alt="License">
 </p>
 
@@ -16,21 +16,22 @@
 
 **GFG Chronicles** is a collection of my solutions to **GeeksforGeeks Data Structures and Algorithms (DSA) problems**.
 
-This repository documents my journey of:
+This repository represents my continuous journey of learning, practicing, and improving my problem-solving skills through coding.
 
-* 🧠 Improving problem-solving skills
-* 💻 Practicing Data Structures & Algorithms
-* 📚 Strengthening Python programming
-* 🎯 Preparing for coding interviews
-* 📈 Tracking my progress consistently
+### 🎯 What I'm Working On
 
-Each solved problem is added to this repository as I continue learning and improving.
+* 🧠 Strengthening Data Structures & Algorithms
+* 💻 Solving coding problems regularly
+* 🔄 Practicing problems using different programming languages
+* 🎯 Improving problem-solving and logical thinking
+* 💼 Preparing for coding interviews and competitive programming
+* 📈 Tracking my DSA journey and progress
 
 ---
 
 ## 📂 Repository Structure
 
-The solutions are organized according to problem difficulty:
+Solutions are organized based on their difficulty level:
 
 ```text
 GFG-Chronicles/
@@ -47,52 +48,46 @@ GFG-Chronicles/
 
 ### 🟢 Basic
 
-Beginner-friendly problems designed to build fundamental programming and problem-solving concepts.
+Beginner-friendly problems focused on fundamental programming and problem-solving concepts.
 
 ### 🟡 Easy
 
-Problems covering basic Data Structures, Algorithms, Mathematics, Arrays, Strings, and other fundamental concepts.
+Problems covering fundamental Data Structures, Algorithms, Mathematics, Arrays, Strings, and more.
 
 ### 🟠 Medium
 
-Problems that require stronger algorithmic thinking and a deeper understanding of DSA concepts.
+Problems requiring deeper algorithmic understanding and stronger problem-solving skills.
 
 ### 🔴 Hard
 
-Challenging problems focused on advanced problem-solving, optimization, and interview-level thinking.
+Challenging problems involving advanced algorithms, optimization, and complex problem-solving.
 
 ### 🏫 School
 
-Problems focused on fundamental programming concepts and introductory problem-solving.
+Problems focused on basic programming concepts and introductory problem-solving.
 
 ---
 
-## 🛠️ Tech Stack
+## 💻 Languages
 
-* 🐍 **Python**
-* 🧩 **Data Structures**
-* ⚡ **Algorithms**
-* 📚 **GeeksforGeeks**
+This repository contains solutions written in **multiple programming languages**.
 
----
+The language used may vary depending on the problem, concept, or learning objective.
 
-## 🎯 Goals
+Some of the languages I work with include:
 
-The main goals of this repository are:
-
-* [x] Start solving DSA problems
-* [x] Build consistency
-* [x] Improve problem-solving skills
-* [ ] Master all major DSA topics
-* [ ] Solve more Medium & Hard problems
-* [ ] Prepare for technical interviews
-* [ ] Continue improving solution quality
+* C
+* C++
+* Java
+* Python
+* JavaScript
+* And more...
 
 ---
 
 ## 📚 Topics
 
-As the repository grows, solutions will cover topics such as:
+As I continue solving problems, this repository covers a wide range of DSA topics, including:
 
 * Arrays
 * Strings
@@ -106,44 +101,52 @@ As the repository grows, solutions will cover topics such as:
 * Queues
 * Trees
 * Graphs
-* Dynamic Programming
 * Greedy Algorithms
+* Dynamic Programming
 * Bit Manipulation
+* Number Theory
 * And more...
+
+---
+
+## 🎯 Goals
+
+* [x] Start my DSA journey
+* [x] Build consistency
+* [x] Solve problems regularly
+* [x] Improve problem-solving skills
+* [ ] Master core DSA concepts
+* [ ] Solve more Medium & Hard problems
+* [ ] Strengthen interview preparation
+* [ ] Continue expanding my problem-solving skills
 
 ---
 
 ## 📈 Progress
 
-This repository is continuously updated as I solve more problems on GeeksforGeeks.
+This repository is continuously updated as I solve more problems on **GeeksforGeeks**.
 
 > **Every problem solved is one step closer to mastering DSA. 🚀**
-
----
-
-## 🌱 Learning Philosophy
 
 ```text
 Learn → Practice → Solve → Understand → Improve → Repeat 🔁
 ```
-
-I'm focusing not only on solving problems but also on understanding the underlying concepts and improving my ability to approach new problems independently.
 
 ---
 
 ## 🔗 Connect With Me
 
 * 💻 **GitHub:** [Aniket Mondal](https://github.com/aniketmondal1210)
-* 🌐 **Portfolio:** https://aniketmondal.lovable.app/
+* 🌐 **Website:** https://aniketmondal.lovable.app/
 * 📧 **Email:** [aniket21destiny@gmail.com](mailto:aniket21destiny@gmail.com)
 
 ---
 
 ## ⭐ Support
 
-If you find this repository useful, consider giving it a ⭐!
+If you find this repository useful, consider giving it a ⭐.
 
-It motivates me to keep learning, solving, and improving. 🚀
+Your support motivates me to keep learning and solving more problems! 🚀
 
 ---
 
