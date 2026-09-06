@@ -1,8 +1,7 @@
 class Solution:
     def alternateBits(self, n):
         # code here
-        a = bin(n)[2:]
-        for i in range(len(a)-1):
-            if a[i] == a[i+1]:
-                return False
-        return True
+        if n == 0:
+            return 0
+        x = n ^ (n >> 1)
+        return (x & (x+1)) == 0
