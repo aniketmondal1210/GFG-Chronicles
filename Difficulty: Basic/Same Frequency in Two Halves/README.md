@@ -69,17 +69,3 @@ The character frequencies are not the same in both halves, so the answer is `fal
 - `1 <= |s| <= 10^5`
 
 ---
-
-## Function Signature
-
-```text
-boolean sameFrequency(String s)
-```
-
----
-
-## Topics
-
-- Strings
-- Hashing
-- Frequency Counting
