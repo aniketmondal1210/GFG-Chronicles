@@ -24,5 +24,5 @@ When a value appears in multiple nodes, the node that appeared **first** should 
 
 ## Constraints
 
-- $1 \le 	ext{size of linked list} \le 10^6$
-- $0 \le 	ext{node.data} \le 10^6$
+- $1 \le 	{size of linked list} \le 10^6$
+- $0 \le 	{node.data} \le 10^6$
