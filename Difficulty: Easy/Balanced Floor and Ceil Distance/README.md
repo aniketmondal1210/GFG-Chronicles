@@ -43,8 +43,8 @@ eq 2$), output is `false`.
 
 ## Constraints
 
-- $1 \le 	ext{arr.size()} \le 10^5$
-- $0 \le 	ext{arr}[i] \le 10^6$
+- $1 \le 	{arr.size()} \le 10^5$
+- $0 \le 	{arr}[i] \le 10^6$
 - $1 \le x \le 10^6$
 - The array `arr[]` is sorted in non-decreasing order.
 
