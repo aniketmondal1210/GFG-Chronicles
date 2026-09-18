@@ -30,7 +30,7 @@ Given an array `arr` of integers, find all numbers in the array whose digits con
 
 ## Constraints
 
-- $1 \le 	ext{arr.size()} \le 10^5$
-- $1 \le 	ext{arr}[i] \le 10^6$
+- $1 \le 	{arr.size()} \le 10^5$
+- $1 \le 	{arr}[i] \le 10^6$
 
 ---
