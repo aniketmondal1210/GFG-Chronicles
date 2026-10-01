@@ -28,6 +28,6 @@ Given a 2D integer matrix `mat[][]` of size $n 	imes m$, where every row and col
 ## Constraints
 
 - $1 \le n, m \le 1000$
-- $1 \le 	ext{mat}[i][j], x \le 10^9$
+- $1 \le 	{mat}[i][j], x \le 10^9$
 
 ---
