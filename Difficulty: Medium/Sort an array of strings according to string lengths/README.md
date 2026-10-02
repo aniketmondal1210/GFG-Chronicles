@@ -23,7 +23,7 @@ Given an array of strings `arr[]`, sort the array in ascending order based on th
 ## Constraints
 
 - $1 \le 	{arr.size()} \le 10^5$
-- $1 \le 	{arr}[i]	ext{.size()} \le 100$
+- $1 \le 	{arr}[i]{.size()} \le 100$
 - Each string contains only English letters.
 
 ---
