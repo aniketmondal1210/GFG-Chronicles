@@ -20,7 +20,7 @@ ightarrow 6$ divisors (even).
 
 Therefore, counting numbers between $1$ and $n$ with an odd number of divisors is equivalent to finding the number of perfect squares $\le n$, which is given by:
 
-$$	{Count} = \sqrt{n} \lfloor 
+$$	{Count} = floor(\sqrt{n}) 
 floor$$
 
 ---
