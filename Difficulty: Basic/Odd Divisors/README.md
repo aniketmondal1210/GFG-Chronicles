@@ -13,15 +13,14 @@ A positive integer $k$ has an **odd number of divisors** if and only if $k$ is a
 ### Explanation:
 Divisors of any number $k$ usually come in pairs $(d, k/d)$. 
 - For example, divisors of $12$ are $(1, 12), (2, 6), (3, 4)$ $
-ightarrow 6$ divisors (even).
+-> 6$ divisors (even).
 - However, if $k$ is a perfect square, there exists a divisor $d$ where $d = k/d$ (i.e., $d = \sqrt{k}$). This divisor pairs with itself and is counted only once.
 - For example, divisors of $36$ are $(1, 36), (2, 18), (3, 12), (4, 9), (6, 6) 
 -> 9 divisors (odd).
 
 Therefore, counting numbers between $1$ and $n$ with an odd number of divisors is equivalent to finding the number of perfect squares $\le n$, which is given by:
 
-$$	{Count} = floor(\sqrt{n}) 
-floor$$
+$$	{Count} = floor(\sqrt{n})
 
 ---
 
