@@ -20,7 +20,7 @@ ightarrow 9$ divisors (odd).
 
 Therefore, counting numbers between $1$ and $n$ with an odd number of divisors is equivalent to finding the number of perfect squares $\le n$, which is given by:
 
-$$	ext{Count} = \lfloor \sqrt{n} 
+$$	{Count} = \lfloor \sqrt{n} 
 floor$$
 
 ---
