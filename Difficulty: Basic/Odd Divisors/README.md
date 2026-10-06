@@ -16,11 +16,11 @@ Divisors of any number $k$ usually come in pairs $(d, k/d)$.
 ightarrow 6$ divisors (even).
 - However, if $k$ is a perfect square, there exists a divisor $d$ where $d = k/d$ (i.e., $d = \sqrt{k}$). This divisor pairs with itself and is counted only once.
 - For example, divisors of $36$ are $(1, 36), (2, 18), (3, 12), (4, 9), (6, 6) 
-ightarrow 9$ divisors (odd).
+-> 9 divisors (odd).
 
 Therefore, counting numbers between $1$ and $n$ with an odd number of divisors is equivalent to finding the number of perfect squares $\le n$, which is given by:
 
-$$	{Count} = \lfloor \sqrt{n} 
+$$	{Count} = \sqrt{n} \lfloor 
 floor$$
 
 ---
