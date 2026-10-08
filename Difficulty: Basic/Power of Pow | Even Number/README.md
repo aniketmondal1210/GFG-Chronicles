@@ -8,18 +8,6 @@ $$\text{Sum} = (2)^2 + (4)^2 + (6)^2 + \dots + (2n)^2$$
 
 ---
 
-## Mathematical Derivation
-
-We can factor out $2^2 = 4$ from each term in the series:
-
-$$\sum_{i=1}^{n} (2i)^2 = 4 \sum_{i=1}^{n} i^2$$
-
-Using the standard formula for the sum of the first $n$ square numbers, $\sum_{i=1}^{n} i^2 = \frac{n(n + 1)(2n + 1)}{6}$:
-
-$$\text{Sum} = 4 \times \frac{n(n + 1)(2n + 1)}{6} = \frac{2n(n + 1)(2n + 1)}{3}$$
-
----
-
 ## Examples
 
 ### Example 1
