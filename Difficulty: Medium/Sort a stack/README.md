@@ -22,6 +22,6 @@ Given a stack of integers `st[]`, sort the stack in ascending order such that th
 
 ## Constraints
 
-- $1 \le 	ext{st.size()}, 	ext{st}[i] \le 10^3$
+- $1 \le 	{st.size()}, 	{st}[i] \le 10^3$
 
 ---
