@@ -25,6 +25,6 @@ Find if the given array `a[]` can fit in array `b[]` or not.
 ## Constraints
 
 - $0 \le 	{a.size()}, 	{a}[i], 	{b.size()}, 	{b}[i] \le 10^5$
-- $	{b.size()} = {a.size()}$
+- b.size() = a.size()
 
 ---
