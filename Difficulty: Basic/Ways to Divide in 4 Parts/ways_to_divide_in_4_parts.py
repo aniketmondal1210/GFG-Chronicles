@@ -4,7 +4,7 @@ class Solution:
         if n < 4:
             return 0
         count = 0
-        for a in range(1, n - 2):
+        for a in range(1, n):
             for b in range(a, n - a - 1):
                 for c in range(b, n - a - b):
                     d = n - a - b - c
