@@ -1,43 +1,35 @@
-# Share the Umbrella
+# Count Pairs With Given Sum in Sorted Array
 
 ## Problem Description
 
-You are given a binary array `rain` of length `n`, where `rain[i] == 1` indicates rain on day `i` and `rain[i] == 0` indicates no rain.
+Given a sorted array `arr[]` of size `n` and an integer `target`, find the number of pairs `(i, j)` with `0 <= i < j < n` such that `arr[i] + arr[j] == target`.
 
-Alice and Bob share a single umbrella over `n` days with the following rules on each day `i` (`0 <= i < n`):
-- Alice needs the umbrella if `i + 1 < n` and `rain[i] == 1` and `rain[i + 1] == 1`.
-- Bob needs the umbrella if `rain[i] == 1`.
-- If neither needs it, the assignment is `"None"`.
-- If only one person needs it, that person receives it.
-- If both need it, whoever has received the umbrella fewer times so far receives it; if tied (`alice_count == bob_count`), Alice receives it.
-- A person's count increments only on a day they receive the umbrella, starting at `0` for both.
-
-Return a list/array `answer` of length `n` containing `"Alice"`, `"Bob"`, or `"None"` for each day.
+Pairs must consist of elements at distinct indices.
 
 ---
 
 ## Examples
 
 ### Example 1
-- **Input:** `rain = [1, 1, 0, 1, 1]`
-- **Output:** `["Alice", "Bob", "None", "Alice", "Bob"]`
-- **Explanation:**
-  - Day `0`: Both need it; counts are tied at `0`, so `"Alice"` gets it (`alice_count = 1`).
-  - Day `1`: Only `"Bob"` needs it (`bob_count = 1`).
-  - Day `2`: Neither needs it (`"None"`).
-  - Day `3`: Both need it; counts are tied at `1`, so `"Alice"` gets it (`alice_count = 2`).
-  - Day `4`: Last day, so only `"Bob"` needs it (`bob_count = 2`).
+- **Input:** `arr[] = [-1, 1, 5, 5, 7]`, `target = 6`
+- **Output:** `3`
+- **Explanation:** Valid pairs summing to `6` are `arr[1] + arr[2] = 1 + 5`, `arr[1] + arr[3] = 1 + 5`, and `arr[0] + arr[4] = -1 + 7`.
 
 ### Example 2
-- **Input:** `rain = [0, 1, 0, 1]`
-- **Output:** `["None", "Bob", "None", "Bob"]`
-- **Explanation:** Rain never occurs on two consecutive days, so Alice never needs the umbrella. Bob receives it on days `1` and `3`, while days `0` and `2` are `"None"`.
+- **Input:** `arr[] = [1, 1, 1, 1]`, `target = 2`
+- **Output:** `6`
+- **Explanation:** Any two distinct indices from the four `1`s form a pair summing to `2`, giving $\binom{4}{2} = 6$ pairs.
+
+### Example 3
+- **Input:** `arr[] = [-1, 10, 10, 12, 15]`, `target = 125`
+- **Output:** `0`
+- **Explanation:** No two elements sum to `125`.
 
 ---
 
 ## Constraints
 
-- $1 \le n = \text{rain.length} \le 100$
-- `rain[i]` is either `0` or `1`.
+- $2 \le \text{arr.size()} \le 10^5$
+- $-10^5 \le \text{arr}[i], \text{target} \le 10^5$
 
 ---
